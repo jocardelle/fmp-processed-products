@@ -1,0 +1,162 @@
+pp_species,pacfin_species_code,notes,species_common_name,fmp,complex
+SALMON,SAMN,All salmon - maps to SAMN FMP,__ALL SALMON,SAMN,NA
+KING,OTHR,"KING WHITING = Atlantic kingcroaker, not salmon; every KING-prefixed product is king whiting (audit 2026-10-01)",__OTHER SPECIES (NO M-GROUP),OTHR,NA
+ROCKFISHES,ROCK,All rockfish,__ALL ROCKFISH,GRND,NA
+SABLEFISH,SABL,Sablefish/black cod,SABLEFISH,GRND,ROND
+LINGCOD,LCOD,Lingcod,LINGCOD,GRND,ROND
+FLOUNDERS,FLAT,All flatfish,__ALL FLATFISH,GRND,NA
+HALIBUT,PHLB,"Pacific halibut (note: managed by IPHC, not PFMC)",PACIFIC HALIBUT,OTHR,NA
+COD,PCOD,Pacific cod,PACIFIC COD,GRND,ROND
+POLLOCK,PLCK,Walleye pollock,WALLEYE POLLOCK,GRND,ROND
+TURBOT,ARTH,Arrowtooth flounder/turbot,ARROWTOOTH FLOUNDER,GRND,"FLAT, TRBT"
+GRENADIER,GRDR,Grenadiers,UNSP. GRENADIERS,GRND,MGRN
+SKATES,SKAT,All skates,__ALL SKATES & RAYS,GRND,MGRN
+HAKE,PWHT,Pacific whiting/hake,PACIFIC WHITING,GRND,ROND
+GROUNDFISH,GRND,Unspecified groundfish,__ALL GROUNDFISH,GRND,NA
+SCULPINS,SCLP,Sculpins,UNSP. SCULPIN,OTHR,NA
+ATKA,AMCK,Atka mackerel - groundfish,ATKA MACKEREL,GRND,ROND
+CAPELIN,CPLN,Capelin - groundfish,CAPELIN,GRND,ROND
+IRISH,RSCL,Irish lord (red irish lord) - other groundfish,RED IRISH LORD,OTHR,NA
+SAND,PDAB,Sand dab (Pacific sanddab),PACIFIC SANDDAB,GRND,"FLAT, SDAB, RFLT"
+ROCK,ORCK,Rock fish (other rockfish),OTHER ROCKFISH,GRND,ROCK
+ANCHOVY,NANC,Northern anchovy,NORTHERN ANCHOVY,CPEL,WETF
+SARDINE,PSDN,Pacific sardine,PACIFIC SARDINE,CPEL,WETF
+SQUID,MSQD,Market squid,MARKET SQUID,CPEL,WETF
+MACKEREL,CMCK,Chub mackerel (most common on West Coast),CHUB MACKEREL,CPEL,WETF
+HERRING,PHRG,Pacific herring,PACIFIC HERRING,CPEL,NA
+BONITO,PBNT,Pacific bonito,PACIFIC BONITO,CPEL,WETF
+SCADS,JMCK,Jack mackerel/scads - coastal pelagic,JACK MACKEREL,CPEL,WETF
+TUNA,TUNA,All tunas,__ALL TUNAS,HMSP,NA
+SWORDFISH,SWRD,Swordfish,SWORDFISH,HMSP,NA
+SHARK,SHRK,All sharks (HMS managed),__ALL SHARKS,HMSP,NA
+MARLIN,MRLN,Striped marlin,STRIPED MARLIN,HMSP,NA
+DOLPHINFISH,DRDO,Dorado/mahi-mahi,DORADO/DOLPHINFISH,HMSP,NA
+WAHOO,WHOO,Wahoo (not HMS managed but often grouped),WAHOO,OTHR,NA
+OPAH,OPAH,Opah/moonfish,OPAH,OTHR,NA
+SPEARFISH,SSPF,Shortbill spearfish,SHORTBILL SPEARFISH,HMSP,NA
+BIGEYE,ETNA,Bigeye tuna - HMS,BIGEYE TUNA,HMSP,TUNA
+ESCOLAR,HMSP,Escolar - often caught with HMS,__ALL HIGHLY MIGRATORY,HMSP,NA
+CRAB,CRAB,All crab,__ALL CRAB,CRAB,NA
+SHRIMP,SRMP,All shrimp,__ALL SHRIMP & PRAWNS,SRMP,NA
+CRAWFISH,OSRM,Crawfish/crayfish - other shrimp,OTHER SHRIMP,SRMP,NA
+BRINE,BSRM,Brine shrimp - bait shrimp,UNSP. BAIT SHRIMP,SRMP,NA
+ABALONE,ABLN,All abalone,__ALL ABALONE,SHLL,NA
+CLAMS,CLAM,All clams,__ALL CLAMS,SHLL,NA
+CLAM,CLAM,All clams,__ALL CLAMS,SHLL,NA
+OYSTERS,OYST,All oysters,__ALL OYSTERS,SHLL,NA
+OYSTER,OYST,All oysters,__ALL OYSTERS,SHLL,NA
+MUSSELS,BMSL,Blue/bay mussel,BLUE OR BAY MUSSEL,SHLL,CLAM
+SCALLOPS,SCAL,All scallops,__ALL SCALLOPS,SHLL,NA
+CONCH,OMSK,Other mollusks,OTHER MOLLUSKS,OTHR,MLSK
+WHELKS,OMSK,Other mollusks,OTHER MOLLUSKS,OTHR,MLSK
+PERIWINKLES,OMSK,Other mollusks,OTHER MOLLUSKS,OTHR,MLSK
+BARNACLE,SHLL,Barnacles - shellfish,__ALL SHELLFISH,SHLL,NA
+OCTOPUS,OCTP,Unspecified octopus,UNSP. OCTOPUS,OTHR,NA
+EELS,EELS,Unspecified eels,UNSP. EELS,OTHR,NA
+SMELT,SMLT,Unspecified smelt,UNSP. SMELT,OTHR,NA
+STURGEON,STRG,All sturgeon,__ALL STURGEON,OTHR,NA
+LOBSTER,LOBS,California spiny lobster,CALIFORNIA SPINY LOBSTER,OTHR,NA
+SEA CUCUMBER,CSCU,California sea cucumber,CALIFORNIA SEA CUCUMBER,OTHR,NA
+SEA URCHIN,RURC,Red sea urchin,RED SEA URCHIN,OTHR,ECHN
+JELLYFISH,UJEL,Unspecified jellyfish,UNSP. JELLYFISH,OTHR,NA
+SEAWEED,OTHR,Seaweed - other,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+KELP,OTHR,Kelp - other,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+SEA,OTHR,"Sea-prefixed species (sea bass, sea trout, etc.)",__OTHER SPECIES (NO M-GROUP),OTHR,NA
+OCEAN,POP,Ocean perch (Pacific ocean perch),PACIFIC OCEAN PERCH,GRND,"ROCK, SSLP"
+CUTTLEFISH,OCTP,Cuttlefish - similar to octopus,UNSP. OCTOPUS,OTHR,NA
+WHITE,OTHR,"White-prefixed species (white seabass, etc.)",__OTHER SPECIES (NO M-GROUP),OTHR,NA
+YELLOW,OTHR,Yellow-prefixed species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+STRIPED,OTHR,"Striped-prefixed species (striped bass, etc.)",__OTHER SPECIES (NO M-GROUP),OTHR,NA
+BLUE,OTHR,Blue-prefixed species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+LUMPFISH,OTHR,Lumpfish - other,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+CATFISH,OTHR,Not Pacific species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+HADDOCK,OTHR,Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+ALEWIVES,OTHR,Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+MENHADEN,OTHR,Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+BLUEFISH,OTHR,Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+CROAKER,OCRK,Other croaker,OTHER CROAKER,OTHR,NA
+DRUM,OTHR,Not common Pacific species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+CARP,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+TROUT,OTHR,"Kept OTHR (decision 2026-10-01; rationale corrected 2026-10-05): steelhead/rainbow products are predominantly out-of-region farmed raw material (Idaho land-based steelhead; no WC aquaculture at scale). Non-tribal wild sale prohibited since 1975; the small treaty-tribal wild component (only lawful wild source, PacFIN STLH=SAMN) dominated pre-2010 volumes but is immaterial and inseparable",__OTHER SPECIES (NO M-GROUP),OTHR,NA
+TILAPIA,OTHR,Aquaculture species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+SNAPPER,OTHR,Primarily tropical/Gulf species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+GROUPERS,OTHR,Primarily tropical/Gulf species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+POMPANO,OTHR,Atlantic/Gulf species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+MULLET,OTHR,Not primary Pacific commercial species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+SHAD,SHAD,Unspecified shad,UNSP. SHAD,OTHR,NA
+WHITEFISH,OTHR,Lake whitefish - freshwater,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+COBIA,OTHR,Atlantic/Gulf species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+TILEFISH,OTHR,Not common Pacific species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+AMBERJACK,OTHR,Not common Pacific species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+YELLOWTAIL,YLTL,Yellowtail - other,YELLOWTAIL,OTHR,NA
+BARRACUDA,CUDA,Pacific barracuda,PACIFIC BARRACUDA,OTHR,NA
+BUTTERFISH,PBTR,Pacific butterfish,PACIFIC BUTTERFISH,OTHR,NA
+ANGLERFISH,OTHR,Monkfish - primarily Atlantic,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+WOLFFISH,OTHR,Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+WRECKFISH,OTHR,Not Pacific species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+BALLYHOO,OTHR,Baitfish - Atlantic/tropical,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+BARRAMUNDI,OTHR,Australian species - aquaculture,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+BLOODWORMS,OTHR,Bait - not fish,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+BLUERUNNER,OTHR,Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+BOWFIN,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+BUFFALOFISH,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+BURBOT,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+CHUBS,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+CRAPPIE,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+CREVALLE,OTHR,Atlantic jack species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+FLYINGFISH,OTHR,Tropical species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+GARFISH,OTHR,Not common commercial species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+GIZZARD,OTHR,Gizzard shad - freshwater,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+GRUNTS,OTHR,Tropical/Gulf species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+HOKI,OTHR,New Zealand species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+JACK,OTHR,Various jack species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+KINGCLIP,OTHR,South African species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+LAUNCE,OTHR,Sand lance - baitfish,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+MILKFISH,OTHR,Tropical aquaculture species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+MOONEYE,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+NILE,OTHR,Nile perch - African species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+ORANGE,OTHR,Orange roughy - deep sea,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+PADDLEFISH,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+PANGASIUS,OTHR,Asian aquaculture species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+PATAGONIAN,OTHR,Patagonian toothfish - Southern Ocean,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+PIKE,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+POMFRET,POMF,Pacific pomfret,PACIFIC POMFRET,OTHR,NA
+SANDWORMS,OTHR,Bait - not fish,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+SAUGER,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+SHEEPHEAD,SHPD,California sheephead,CALIFORNIA SHEEPHEAD,OTHR,NA
+SHEEPSHEAD,SHPD,California sheephead,CALIFORNIA SHEEPHEAD,OTHR,NA
+SUCKERS,OTHR,Freshwater species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+TRIGGERFISH,OTHR,Tropical species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+TRIPLETAIL,OTHR,Atlantic/Gulf species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+TENPOUNDER,OTHR,Ladyfish/tenpounder - Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+CUSK,OTHR,Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+SPOT,OTHR,Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+SCUP,OTHR,Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+TAUTOG,OTHR,Atlantic species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+SEATROUT,OTHR,Atlantic/Gulf species,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+ALLIGATOR,OTHR,Non-fish,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+FROG,OTHR,Non-fish,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+FROGS,OTHR,Non-fish,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+TURTLES,OTHR,Non-fish,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+SPONGES,OTHR,Non-fish,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+HORSESHOE,OTHR,Horseshoe crab - not true crab,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+UNCL,OTHR,Unclassified fish,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+FISH,OTHR,Unspecified fish,__OTHER SPECIES (NO M-GROUP),OTHR,NA
+OCEAN PERCH,POP,Pacific ocean perch,PACIFIC OCEAN PERCH,GRND,"ROCK, SSLP"
+ATKA MACKEREL,AMCK,Atka mackerel - groundfish,ATKA MACKEREL,GRND,ROND
+AQUACULTURE,NA,Business type - exclude,NA,NA,NA
+AUCTION,NA,Business type - exclude,NA,NA,NA
+BROKER,NA,Business type - exclude,NA,NA,NA
+BUYING,NA,Business type - exclude,NA,NA,NA
+COLD,NA,Cold storage - exclude,NA,NA,NA
+CUSTOM,NA,Custom processing - exclude,NA,NA,NA
+DEPURATION,NA,Facility type - exclude,NA,NA,NA
+DID,NA,Unknown - exclude,NA,NA,NA
+EXPORTER,NA,Business type - exclude,NA,NA,NA
+IMPORTER,NA,Business type - exclude,NA,NA,NA
+PACKER-SHIPPER,NA,Business type - exclude,NA,NA,NA
+SPORT,NA,Sport fishing - exclude,NA,NA,NA
+SUPPLIER,NA,Business type - exclude,NA,NA,NA
+TRANSPORTER,NA,Business type - exclude,NA,NA,NA
+UNLOADING,NA,Facility type - exclude,NA,NA,NA
+FUR,NA,Non-fish product - exclude,NA,NA,NA

@@ -1,0 +1,13 @@
+# Confidential survey data — never commit (lives on the project volume only)
+data/pp_processed*.csv
+data/pp_address*.xlsx
+data/pp_employment*.xlsx
+*.rds
+*.duckdb
+
+# R / OS
+.Rproj.user/
+.Rhistory
+.RData
+.DS_Store
+._*
