@@ -11,3 +11,8 @@ data/pp_employment*.xlsx
 .RData
 .DS_Store
 ._*
+
+# Confidential inputs and derived files (stay on the project volume)
+data/pacfin_tables_monthly.RDS
+data/confidential_*
+outputs/confidential/

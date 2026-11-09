@@ -42,6 +42,7 @@
 # OUTPUTS: outputs/species_fmp_crosswalk.csv  - species-level crosswalk
 #          outputs/pp_names_with_fmp.csv      - product-level crosswalk
 #          outputs/S1_product_fmp_crosswalk.csv - Supplementary Table S1
+#          outputs/table1_management_groups.csv - Table 1 product-code counts
 # =============================================================================
 
 
@@ -577,3 +578,16 @@ print(count(s1, management_group_name, sort = TRUE))
 print(count(s1, product_form, sort = TRUE), n = 10)
 
 cat("\nCrosswalk + cleaning decisions workflow complete.\n")
+
+# ============================================================
+# TABLE 1: PRODUCT CODES BY MANAGEMENT GROUP (manuscript §2.2)
+# ============================================================
+# Product-code counts cover the national survey, including codes with no
+# West Coast records.
+table1 <- s1 %>%
+  count(management_group, management_group_name, name = "product_codes") %>%
+  mutate(management_group = factor(management_group,
+                                   levels = c("GRND", "SAMN", "CPEL", "HMSP", "CRAB", "SRMP", "SHLL", "OTHR"))) %>%
+  arrange(management_group)
+write_csv(table1, here("outputs", "table1_management_groups.csv"))
+print(table1)
