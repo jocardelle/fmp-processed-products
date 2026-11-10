@@ -48,6 +48,7 @@ where it is settled.
 
 | Script | What it does |
 | --- | --- |
+| `R/00_pacfin_pull.R` | Pulls PacFIN fish tickets by year, month, species, management group and port (1981–2025) into `data/pacfin_tables_monthly.RDS`. Needs PacFIN ODBC access; not part of the routine run, since re-running replaces the Jan 2026 pull the results use |
 | `R/01_crosswalk_decisions.R` | Builds the species crosswalk (hand-authored lookup joined to PacFIN's management-group classification), applies description-level overrides, classifies product forms, writes S1 and Table 1, and prints a validation report |
 | `R/02_product_context.R` | Adds origin and market tags to the crosswalk: Alaska-leaning groundfish species, canned HMS, trade exposure class (e.g. breaded shrimp = import-competing), the 19 focal product lines, and squid-only / Dungeness-only series. Tags only, drops nothing |
 | `R/03_build_panel.R` | Keeps every record from a WA/OR/CA plant, attaches management group, product form and tags, converts to constant 2023 dollars (GDP deflator), and flags the West Coast-comparable subset (`wc_comparable`), and screens every management group-year for disclosure |
@@ -101,7 +102,7 @@ Limits, also recorded in the script header:
 | `data/pp_address_23.xlsx` | Plant addresses | **Yes.** Used by 03, 08 |
 | `data/pp_employment.xlsx` | Monthly employment by plant | **Yes.** Used by 07 |
 | `data/pacfin_dealer.duckdb` | PacFIN dealer landings (`dealer_species_year` table) | **Yes.** Used by 08 |
-| `data/pacfin_tables_monthly.RDS` | PacFIN landings and ex-vessel revenue by year, month, species, port | **Yes.** Used by 04, 05, 07 |
+| `data/pacfin_tables_monthly.RDS` | PacFIN landings and ex-vessel revenue by year, month, species, port. Made by `R/00_pacfin_pull.R` | **Yes.** Used by 04, 05, 07 |
 
 The confidential files are never in this repo. They live on the project
 volume — `processor_cluster/data/` (the first four) and `csvi_production/`
